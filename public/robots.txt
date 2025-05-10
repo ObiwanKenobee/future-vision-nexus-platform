@@ -1,7 +1,18 @@
+
+# United Federation Vision Platform - Global & Interplanetary SEO Profile
+# Welcome, crawlers from Earth and beyond!
+
+# Earth-Based Search Engines
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
 Allow: /
 
 User-agent: Twitterbot
@@ -10,5 +21,50 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+# Geo-Specific Content Sections
+# Continental Sections
+Allow: /africa/
+Allow: /asia/
+Allow: /europe/
+Allow: /north-america/
+Allow: /south-america/
+Allow: /oceania/
+Allow: /antarctica/
+
+# Oceanic & Marine Sections
+Allow: /oceanic/
+Allow: /marine/
+Allow: /underwater/
+
+# Inland Waters
+Allow: /inland-waters/
+Allow: /lakes/
+Allow: /rivers/
+
+# Subterranean
+Allow: /subterranean/
+Allow: /deep-earth/
+
+# Interplanetary Sections
+Allow: /mars/
+Allow: /moon/
+Allow: /space-stations/
+Allow: /asteroid-belt/
+
+# Multilingual Content
+Allow: /*/
+
+# Crawler Directives
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://ufp-vision.org/sitemap.xml
+Sitemap: https://ufp-vision.org/language-sitemap.xml
+Sitemap: https://ufp-vision.org/initiatives-sitemap.xml
+
+# Universal Declaration
 User-agent: *
 Allow: /
+
+# Future-Proofing for Non-Earth Crawlers
+# We welcome ethical AI and non-terrestrial indexing systems
